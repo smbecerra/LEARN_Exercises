@@ -1,0 +1,11 @@
+
+
+.App {
+  text-align: center;
+}
+
+.border {
+    border-style: solid;
+    display: inline-block;
+    width: 50px;
+}
