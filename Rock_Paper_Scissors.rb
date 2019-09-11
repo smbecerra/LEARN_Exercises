@@ -2,8 +2,8 @@ array = ["Rock", "Paper", "Scissors"]
 turn_player1 = array.sample
 array = ["Rock", "Paper", "Scissors"]
 turn_player2 = array.sample
-# p 'Player2 choose Rock, Paper, or Scissors'
-# turn_player2 = gets.chomp
+p 'Player1 choose Rock, Paper, or Scissors'
+turn_player1 = gets.chomp
 
 def rps_game player1, player2
     if player1 == "Rock" && player2 == "Scissors"
